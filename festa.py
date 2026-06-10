@@ -1,0 +1,7 @@
+E = int(input())
+S = int(input())
+L = int(input())
+maior=max(E, S, L)
+menor=min(E, S, L)
+tt=2*(maior-menor)
+print(tt)
